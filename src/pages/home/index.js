@@ -9,7 +9,7 @@ class Homepage extends React.Component {
     super(props);
 
     this.state = {
-      background: '#000',
+      background: '#ff7300',
       color: '#fff'
     };
   }

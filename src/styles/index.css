@@ -2,6 +2,14 @@ body {
   background : #fff;
 }
 
+main {
+  padding: 1em;
+}
+
+h1, h2 {
+  font-size: 100%;
+}
+
 .preview {
   margin: 0 auto;
   width: 5em;
