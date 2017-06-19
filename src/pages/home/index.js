@@ -42,22 +42,11 @@ class Homepage extends React.Component {
   }
 
   getTextColor(bgColor) {
-    const c     = lab(bgColor);
-    const white = lab('white');
-    const black = lab('black');
-
-    return distance(c, white) >= distance(c, black) ? '#fff' : '#000';
+    const c = lab(bgColor);
+    // L 的范围是 0-100
+    return c.l > 90 ? '#000' : '#fff';
   }
 
 }
-
-const distance = (c1, c2)=> {
-  return (
-    (c1.l - c2.l) * (c1.l - c2.l) +
-    (c1.a - c2.a) * (c1.a - c2.a) +
-    (c1.b - c2.b) * (c1.b - c2.b)
-  );
-};
-
 
 export default connect()(Homepage);
