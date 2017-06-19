@@ -42,10 +42,25 @@ class Homepage extends React.Component {
   }
 
   getTextColor(bgColor) {
-    const c = lab(bgColor);
-    return c.l >= 70 ? '#000' : '#fff';
+    const c     = lab(bgColor);
+    const white = lab('white');
+    const black = lab('black');
+
+    // 尽量用白色
+    const BLACK_RATE = 0.7;
+
+    return distance(c, white) >= distance(c, black) * BLACK_RATE ? '#fff' : '#000';
   }
 
 }
+
+const distance = (c1, c2)=> {
+  return (
+    (c1.l - c2.l) * (c1.l - c2.l) +
+    (c1.a - c2.a) * (c1.a - c2.a) +
+    (c1.b - c2.b) * (c1.b - c2.b)
+  );
+};
+
 
 export default connect()(Homepage);
