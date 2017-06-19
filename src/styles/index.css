@@ -8,4 +8,5 @@ body {
   text-align: center;
   font-size: 200%;
   line-height: 5em;
+  transition: all .3s;
 }

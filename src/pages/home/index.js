@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import 'styles/index.css';
-import {hsl} from 'd3-color';
+import {lab} from 'd3-color';
 
 class Homepage extends React.Component {
 
@@ -15,15 +15,15 @@ class Homepage extends React.Component {
   }
 
   render() {
-    const bgColor = hsl(this.state.background);
+    const bgColor = lab(this.state.background);
     return (
       <main>
         <h1>请选择一个颜色</h1>
         <input type="color" onChange={::this.onChange} value={this.state.background} />
         <ul>
-          <li>H: {bgColor.h}</li>
-          <li>S: {bgColor.s}</li>
           <li>L: {bgColor.l}</li>
+          <li>A: {bgColor.a}</li>
+          <li>B: {bgColor.b}</li>
         </ul>
         <h2>Color:</h2>
         <div className="preview" style={this.state}>
@@ -42,10 +42,25 @@ class Homepage extends React.Component {
   }
 
   getTextColor(bgColor) {
-    const c = hsl(bgColor);
-    return c.l >= 0.5 ? '#000' : '#fff';
+    const c     = lab(bgColor);
+    const white = lab('white');
+    const black = lab('black');
+
+    // 尽量用白色
+    const BLACK_RATE = 0.7;
+
+    return distance(c, white) >= distance(c, black) * BLACK_RATE ? '#fff' : '#000';
   }
 
 }
+
+const distance = (c1, c2)=> {
+  return (
+    (c1.l - c2.l) * (c1.l - c2.l) +
+    (c1.a - c2.a) * (c1.a - c2.a) +
+    (c1.b - c2.b) * (c1.b - c2.b)
+  );
+};
+
 
 export default connect()(Homepage);
