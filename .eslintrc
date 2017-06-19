@@ -1,3 +1,6 @@
 {
-  extends: '@hlj/eslint-config-base'
+  extends: '@hlj/eslint-config-base',
+  rules: {
+    max-len: 0
+  }
 }
