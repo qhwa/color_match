@@ -46,10 +46,7 @@ class Homepage extends React.Component {
     const white = lab('white');
     const black = lab('black');
 
-    // 尽量用白色
-    const BLACK_RATE = 0.7;
-
-    return distance(c, white) >= distance(c, black) * BLACK_RATE ? '#fff' : '#000';
+    return distance(c, white) >= distance(c, black) ? '#fff' : '#000';
   }
 
 }
