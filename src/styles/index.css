@@ -1,0 +1,11 @@
+body {
+  background : #fff;
+}
+
+.preview {
+  margin: 0 auto;
+  width: 5em;
+  text-align: center;
+  font-size: 200%;
+  line-height: 5em;
+}
