@@ -87,6 +87,7 @@
     "@hlj/imgurl": "^1.0.0",
     "@hlj/share": "^1.0.0",
     "@hlj/widget": "^1.17.1",
+    "d3-color": "^1.0.3",
     "domready": "^1.0.8",
     "normalize.css": "^5.0.0",
     "react": "^15.5.4",
