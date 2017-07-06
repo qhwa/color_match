@@ -2,175 +2,6 @@
 # yarn lockfile v1
 
 
-"@hlj/ajax@^1.0.2", "@hlj/ajax@^1.1.0":
-  version "1.1.0"
-  resolved "https://npm.hlj.team/@hlj%2fajax/-/ajax-1.1.0.tgz#bb10e12302200836e27f49a85dc5f1b8d7d1b61f"
-  dependencies:
-    "@hlj/upload_file" "^1.0.0"
-    core-js "^2.4.0"
-    es6-promise "~3.1.2"
-    query-string "^4.3.2"
-
-"@hlj/cache@^0.1.1":
-  version "0.1.1"
-  resolved "https://npm.hlj.team/@hlj%2fcache/-/cache-0.1.1.tgz#787c368dca8cc27204b5505c77d71a46ff8c0eb0"
-  dependencies:
-    lscache "^1.0.7"
-
-"@hlj/cache@^1.0.0":
-  version "1.0.0"
-  resolved "https://npm.hlj.team/@hlj%2fcache/-/cache-1.0.0.tgz#de6c67fa496301062b597b6ada224d0003092058"
-  dependencies:
-    lscache "^1.0.7"
-
-"@hlj/city@>0.0.0":
-  version "0.2.11"
-  resolved "https://npm.hlj.team/@hlj%2fcity/-/city-0.2.11.tgz#35ea5b501c08fa9515b492977e971ac718cacec0"
-  dependencies:
-    "@hlj/ajax" "^1.1.0"
-    "@hlj/cache" "^0.1.1"
-    "@hlj/env" "^0.4.4"
-    "@hlj/load_script" "^0.1.0"
-    es6-promise "^3.2.1"
-    query-string "^4.2.2"
-    wolfy87-eventemitter "^5.1.0"
-
-"@hlj/city@^1.0.0":
-  version "1.0.1"
-  resolved "https://npm.hlj.team/@hlj%2fcity/-/city-1.0.1.tgz#8c427383d266e4c1e0e9fa04222a3426a43fd762"
-  dependencies:
-    "@hlj/ajax" "^1.1.0"
-    "@hlj/cache" "^1.0.0"
-    "@hlj/env" "^1.0.0"
-    "@hlj/load_script" "^1.0.0"
-    es6-promise "^3.2.1"
-    query-string "^4.2.2"
-    wolfy87-eventemitter "^5.1.0"
-
-"@hlj/env@^0.3.1":
-  version "0.3.3"
-  resolved "https://npm.hlj.team/@hlj%2fenv/-/env-0.3.3.tgz#4940748c9eaa346c2f8eea2f5964ad4451c92db3"
-  dependencies:
-    query-string "^4.2.2"
-
-"@hlj/env@^0.4.4":
-  version "0.4.4"
-  resolved "https://npm.hlj.team/@hlj%2fenv/-/env-0.4.4.tgz#23b954d4c70955ae1871d6d64085e66fa7122d78"
-  dependencies:
-    query-string "^4.2.2"
-
-"@hlj/env@^1.0.0":
-  version "1.0.0"
-  resolved "https://npm.hlj.team/@hlj%2fenv/-/env-1.0.0.tgz#79fd9f0eea17fe4a7e6621a4d3e3aecf98f4a198"
-  dependencies:
-    query-string "^4.2.2"
-
-"@hlj/eslint-config-base@^1.2.1":
-  version "1.2.1"
-  resolved "https://npm.hlj.team/@hlj%2feslint-config-base/-/eslint-config-base-1.2.1.tgz#7b45537d37f6264bf49a25bc0d186ea25782b1c8"
-  optionalDependencies:
-    babel-eslint "^7.1.0"
-    eslint "^3.0.0"
-
-"@hlj/hljurl@^1.0.0", "@hlj/hljurl@^1.0.4":
-  version "1.0.5"
-  resolved "https://npm.hlj.team/@hlj%2fhljurl/-/hljurl-1.0.5.tgz#854c673748ace0ebbb19e15cdc253c48e0813166"
-  dependencies:
-    "@hlj/city" ">0.0.0"
-    "@hlj/env" "^1.0.0"
-    simple-url "^1.1.4"
-
-"@hlj/imgurl@^0.4.0":
-  version "0.4.0"
-  resolved "https://npm.hlj.team/@hlj%2fimgurl/-/imgurl-0.4.0.tgz#3d3dbd8f8d2737eeb40dac43f64b51b794837f1f"
-
-"@hlj/imgurl@^1.0.0":
-  version "1.0.0"
-  resolved "https://npm.hlj.team/@hlj%2fimgurl/-/imgurl-1.0.0.tgz#0fdb36d45a38f1101483cd285e8e765bba50ad4d"
-
-"@hlj/load_script@^0.1.0":
-  version "0.1.0"
-  resolved "https://npm.hlj.team/@hlj%2fload_script/-/load_script-0.1.0.tgz#1d793ef168fd21b2db38803d0516c19f60100f4f"
-  dependencies:
-    core-js "^2.4.0"
-    es6-promise "^3.2.1"
-
-"@hlj/load_script@^1.0.0":
-  version "1.0.0"
-  resolved "https://npm.hlj.team/@hlj%2fload_script/-/load_script-1.0.0.tgz#1334246091f8b5f47d178554145696fe3ffc1771"
-  dependencies:
-    core-js "^2.4.0"
-    es6-promise "^3.2.1"
-
-"@hlj/share@^1.0.0":
-  version "1.0.0"
-  resolved "https://npm.hlj.team/@hlj%2fshare/-/share-1.0.0.tgz#74431a1afec8f55a781544a02c83b4ff8aa7bef5"
-  dependencies:
-    "@hlj/ajax" "^1.0.2"
-    "@hlj/env" "^1.0.0"
-    "@hlj/load_script" "^1.0.0"
-    core-js "^2.4.0"
-
-"@hlj/track@^1.0.5":
-  version "1.0.5"
-  resolved "https://npm.hlj.team/@hlj%2ftrack/-/track-1.0.5.tgz#bbcf1fed274455baa8c4ecab61d33369105fea43"
-  dependencies:
-    "@hlj/cache" "^0.1.1"
-    "@hlj/city" ">0.0.0"
-    "@hlj/env" "^0.3.1"
-    es6-promise "^3.2.1"
-    lscache "^1.0.6"
-    tiny-cookie "^1.0.0"
-
-"@hlj/ui@^1.9.3":
-  version "1.9.3"
-  resolved "https://npm.hlj.team/@hlj%2fui/-/ui-1.9.3.tgz#12ca56e743883472c451732c765f7889849dfbd5"
-  dependencies:
-    "@hlj/imgurl" "^0.4.0"
-    classlist-polyfill "^1.0.3"
-    classnames "^2.2.5"
-    clipboard "^1.6.1"
-    debug "^2.6.1"
-    domready "^1.0.8"
-    is-equal "^1.5.5"
-    prop-types "^15.5.8"
-    react "^15.4.2"
-    react-dom "^15.4.2"
-    react-slide-deck "^0.2.3"
-    react-svg-inline "^1.2.0"
-    request-interval "^2.0.0"
-
-"@hlj/upload_file@^1.0.0":
-  version "1.0.0"
-  resolved "https://npm.hlj.team/@hlj%2fupload_file/-/upload_file-1.0.0.tgz#d31e7945a19331724ba051ad4cce4fba83dc76ad"
-
-"@hlj/widget@^1.17.1":
-  version "1.18.2"
-  resolved "https://npm.hlj.team/@hlj%2fwidget/-/widget-1.18.2.tgz#3df182a2eca0a63d1d98018ec949879bd6d35948"
-  dependencies:
-    "@hlj/ajax" "^1.0.2"
-    "@hlj/city" "^1.0.0"
-    "@hlj/env" "^1.0.0"
-    "@hlj/hljurl" "^1.0.0"
-    "@hlj/imgurl" "^1.0.0"
-    "@hlj/track" "^1.0.5"
-    "@hlj/ui" "^1.9.3"
-    classlist-polyfill "^1.0.3"
-    classnames "^2.2.5"
-    core-js "^2.2.0"
-    es6-promise "^3.2.1"
-    moment "^2.14.1"
-    normalize.css "^4.2.0"
-    prop-types "^15.5.8"
-    react "^15.4.2"
-    react-addons-css-transition-group "^15.4.0"
-    react-cropper "~0.9.4"
-    react-dom "^15.4.2"
-    react-svg-inline "^2.0.0"
-    request-interval "^2.0.0"
-    stb-shim-classlist "^1.3.0"
-    tiny-cookie "^1.0.1"
-
 abab@^1.0.0:
   version "1.0.3"
   resolved "http://r.cnpmjs.org/abab/download/abab-1.0.3.tgz#b81de5f7274ec4e756d797cd834f303642724e5d"
@@ -444,7 +275,7 @@ aws4@^1.2.1:
   version "1.6.0"
   resolved "http://r.cnpmjs.org/aws4/download/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
-babel-code-frame@^6.16.0, babel-code-frame@^6.22.0:
+babel-code-frame@^6.22.0:
   version "6.22.0"
   resolved "http://r.cnpmjs.org/babel-code-frame/download/babel-code-frame-6.22.0.tgz#027620bee567a88c32561574e7fd0801d33118e4"
   dependencies:
@@ -485,15 +316,6 @@ babel-eslint@^6.0.4:
     babylon "^6.0.18"
     lodash.assign "^4.0.0"
     lodash.pickby "^4.0.0"
-
-babel-eslint@^7.1.0:
-  version "7.2.3"
-  resolved "http://r.cnpmjs.org/babel-eslint/download/babel-eslint-7.2.3.tgz#b2fe2d80126470f5c19442dc757253a897710827"
-  dependencies:
-    babel-code-frame "^6.22.0"
-    babel-traverse "^6.23.1"
-    babel-types "^6.23.0"
-    babylon "^6.17.0"
 
 babel-generator@^6.24.1:
   version "6.24.1"
@@ -1124,7 +946,7 @@ babel-template@^6.24.1:
     babylon "^6.11.0"
     lodash "^4.2.0"
 
-babel-traverse@^6.0.20, babel-traverse@^6.23.1, babel-traverse@^6.24.1:
+babel-traverse@^6.0.20, babel-traverse@^6.24.1:
   version "6.24.1"
   resolved "http://r.cnpmjs.org/babel-traverse/download/babel-traverse-6.24.1.tgz#ab36673fd356f9a0948659e7b338d5feadb31695"
   dependencies:
@@ -1138,7 +960,7 @@ babel-traverse@^6.0.20, babel-traverse@^6.23.1, babel-traverse@^6.24.1:
     invariant "^2.2.0"
     lodash "^4.2.0"
 
-babel-types@^6.0.19, babel-types@^6.19.0, babel-types@^6.23.0, babel-types@^6.24.1:
+babel-types@^6.0.19, babel-types@^6.19.0, babel-types@^6.24.1:
   version "6.24.1"
   resolved "http://r.cnpmjs.org/babel-types/download/babel-types-6.24.1.tgz#a136879dc15b3606bda0d90c1fc74304c2ff0975"
   dependencies:
@@ -1147,7 +969,7 @@ babel-types@^6.0.19, babel-types@^6.19.0, babel-types@^6.23.0, babel-types@^6.24
     lodash "^4.2.0"
     to-fast-properties "^1.0.1"
 
-babylon@^6.0.18, babylon@^6.11.0, babylon@^6.15.0, babylon@^6.17.0:
+babylon@^6.0.18, babylon@^6.11.0, babylon@^6.15.0:
   version "6.17.0"
   resolved "http://r.cnpmjs.org/babylon/download/babylon-6.17.0.tgz#37da948878488b9c4e3c4038893fa3314b3fc932"
 
@@ -1595,11 +1417,7 @@ clap@^1.0.9:
   dependencies:
     chalk "^1.1.3"
 
-classlist-polyfill@^1.0.3:
-  version "1.2.0"
-  resolved "http://r.cnpmjs.org/classlist-polyfill/download/classlist-polyfill-1.2.0.tgz#935bc2dfd9458a876b279617514638bcaa964a2e"
-
-classnames@^2.2.1, classnames@^2.2.5:
+classnames@^2.2.1:
   version "2.2.5"
   resolved "http://r.cnpmjs.org/classnames/download/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
 
@@ -1618,14 +1436,6 @@ cli-cursor@^1.0.1:
 cli-width@^2.0.0:
   version "2.1.0"
   resolved "http://r.cnpmjs.org/cli-width/download/cli-width-2.1.0.tgz#b234ca209b29ef66fc518d9b98d5847b00edf00a"
-
-clipboard@^1.6.1:
-  version "1.6.1"
-  resolved "http://r.cnpmjs.org/clipboard/download/clipboard-1.6.1.tgz#65c5b654812466b0faab82dc6ba0f1d2f8e4be53"
-  dependencies:
-    good-listener "^1.2.0"
-    select "^1.1.2"
-    tiny-emitter "^1.0.0"
 
 cliui@^2.1.0:
   version "2.1.0"
@@ -1808,7 +1618,7 @@ concat-stream@1.5.0:
     readable-stream "~2.0.0"
     typedarray "~0.0.5"
 
-concat-stream@^1.4.6, concat-stream@^1.4.7, concat-stream@^1.5.2:
+concat-stream@^1.4.6, concat-stream@^1.4.7:
   version "1.6.0"
   resolved "http://r.cnpmjs.org/concat-stream/download/concat-stream-1.6.0.tgz#0aac662fd52be78964d5532f694784e70110acf7"
   dependencies:
@@ -1871,7 +1681,7 @@ core-js@^1.0.0:
   version "1.2.7"
   resolved "http://r.cnpmjs.org/core-js/download/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
 
-core-js@^2.1.0, core-js@^2.2.0, core-js@^2.4.0:
+core-js@^2.1.0, core-js@^2.4.0:
   version "2.4.1"
   resolved "http://r.cnpmjs.org/core-js/download/core-js-2.4.1.tgz#4de911e667b0eae9124e34254b53aea6fc618d3e"
 
@@ -1914,10 +1724,6 @@ create-react-class@^15.5.1:
   dependencies:
     fbjs "^0.8.9"
     object-assign "^4.1.1"
-
-cropperjs@^0.8.0:
-  version "0.8.1"
-  resolved "http://r.cnpmjs.org/cropperjs/download/cropperjs-0.8.1.tgz#3dc01813e2f6d1df2c8909e1ce092146c692548e"
 
 cross-spawn@^3.0.0:
   version "3.0.1"
@@ -2142,7 +1948,7 @@ debug@2.6.3:
   dependencies:
     ms "0.7.2"
 
-debug@^2.1.1, debug@^2.2.0, debug@^2.6.1:
+debug@^2.1.1, debug@^2.2.0:
   version "2.6.6"
   resolved "http://r.cnpmjs.org/debug/download/debug-2.6.6.tgz#a9fa6fbe9ca43cf1e79f73b75c0189cbb7d6db5a"
   dependencies:
@@ -2252,10 +2058,6 @@ del@^2.0.2:
 delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "http://r.cnpmjs.org/delayed-stream/download/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
-
-delegate@^3.1.2:
-  version "3.1.2"
-  resolved "http://r.cnpmjs.org/delegate/download/delegate-3.1.2.tgz#1e1bc6f5cadda6cb6cbf7e6d05d0bcdd5712aebe"
 
 delegates@^1.0.0:
   version "1.0.0"
@@ -2613,14 +2415,6 @@ es6-map@^0.1.3:
     es6-symbol "~3.1.1"
     event-emitter "~0.3.5"
 
-es6-promise@^3.2.1:
-  version "3.3.1"
-  resolved "http://r.cnpmjs.org/es6-promise/download/es6-promise-3.3.1.tgz#a08cdde84ccdbf34d027a1451bc91d4bcd28a613"
-
-es6-promise@~3.1.2:
-  version "3.1.2"
-  resolved "http://r.cnpmjs.org/es6-promise/download/es6-promise-3.1.2.tgz#795e25ceb47f7babb263d151afbedd92d18e6a07"
-
 es6-promise@~4.0.3:
   version "4.0.5"
   resolved "http://r.cnpmjs.org/es6-promise/download/es6-promise-4.0.5.tgz#7882f30adde5b240ccfa7f7d78c548330951ae42"
@@ -2694,12 +2488,13 @@ eslint-loader@^1.0.0:
     object-hash "^1.1.4"
     rimraf "^2.6.1"
 
-eslint-plugin-react@^5.2.2:
-  version "5.2.2"
-  resolved "http://r.cnpmjs.org/eslint-plugin-react/download/eslint-plugin-react-5.2.2.tgz#7db068e1f5487f6871e4deef36a381c303eac161"
+eslint-plugin-react@^7.1.0:
+  version "7.1.0"
+  resolved "https://r.cnpmjs.org/eslint-plugin-react/download/eslint-plugin-react-7.1.0.tgz#27770acf39f5fd49cd0af4083ce58104eb390d4c"
   dependencies:
-    doctrine "^1.2.2"
-    jsx-ast-utils "^1.2.1"
+    doctrine "^2.0.0"
+    has "^1.0.1"
+    jsx-ast-utils "^1.4.1"
 
 eslint@^2.0.0:
   version "2.13.1"
@@ -2739,47 +2534,7 @@ eslint@^2.0.0:
     text-table "~0.2.0"
     user-home "^2.0.0"
 
-eslint@^3.0.0:
-  version "3.19.0"
-  resolved "http://r.cnpmjs.org/eslint/download/eslint-3.19.0.tgz#c8fc6201c7f40dd08941b87c085767386a679acc"
-  dependencies:
-    babel-code-frame "^6.16.0"
-    chalk "^1.1.3"
-    concat-stream "^1.5.2"
-    debug "^2.1.1"
-    doctrine "^2.0.0"
-    escope "^3.6.0"
-    espree "^3.4.0"
-    esquery "^1.0.0"
-    estraverse "^4.2.0"
-    esutils "^2.0.2"
-    file-entry-cache "^2.0.0"
-    glob "^7.0.3"
-    globals "^9.14.0"
-    ignore "^3.2.0"
-    imurmurhash "^0.1.4"
-    inquirer "^0.12.0"
-    is-my-json-valid "^2.10.0"
-    is-resolvable "^1.0.0"
-    js-yaml "^3.5.1"
-    json-stable-stringify "^1.0.0"
-    levn "^0.3.0"
-    lodash "^4.0.0"
-    mkdirp "^0.5.0"
-    natural-compare "^1.4.0"
-    optionator "^0.8.2"
-    path-is-inside "^1.0.1"
-    pluralize "^1.2.1"
-    progress "^1.1.8"
-    require-uncached "^1.0.2"
-    shelljs "^0.7.5"
-    strip-bom "^3.0.0"
-    strip-json-comments "~2.0.1"
-    table "^3.7.8"
-    text-table "~0.2.0"
-    user-home "^2.0.0"
-
-espree@^3.1.6, espree@^3.4.0:
+espree@^3.1.6:
   version "3.4.2"
   resolved "http://r.cnpmjs.org/espree/download/espree-3.4.2.tgz#38dbdedbedc95b8961a1fbf04734a8f6a9c8c592"
   dependencies:
@@ -2798,12 +2553,6 @@ esprima@^3.1.1, esprima@~3.1.0:
   version "3.1.3"
   resolved "http://r.cnpmjs.org/esprima/download/esprima-3.1.3.tgz#fdca51cee6133895e3c88d535ce49dbff62a4633"
 
-esquery@^1.0.0:
-  version "1.0.0"
-  resolved "http://r.cnpmjs.org/esquery/download/esquery-1.0.0.tgz#cfba8b57d7fba93f17298a8a006a04cda13d80fa"
-  dependencies:
-    estraverse "^4.0.0"
-
 esrecurse@^4.1.0:
   version "4.1.0"
   resolved "http://r.cnpmjs.org/esrecurse/download/esrecurse-4.1.0.tgz#4713b6536adf7f2ac4f327d559e7756bff648220"
@@ -2819,7 +2568,7 @@ estraverse@^1.9.1:
   version "1.9.3"
   resolved "http://r.cnpmjs.org/estraverse/download/estraverse-1.9.3.tgz#af67f2dc922582415950926091a4005d29c9bb44"
 
-estraverse@^4.0.0, estraverse@^4.1.1, estraverse@^4.2.0:
+estraverse@^4.1.1, estraverse@^4.2.0:
   version "4.2.0"
   resolved "http://r.cnpmjs.org/estraverse/download/estraverse-4.2.0.tgz#0dee3fed31fcd469618ce7342099fc1afa0bdb13"
 
@@ -3040,13 +2789,6 @@ figures@^1.3.5:
 file-entry-cache@^1.1.1:
   version "1.3.1"
   resolved "http://r.cnpmjs.org/file-entry-cache/download/file-entry-cache-1.3.1.tgz#44c61ea607ae4be9c1402f41f44270cbfe334ff8"
-  dependencies:
-    flat-cache "^1.2.1"
-    object-assign "^4.0.1"
-
-file-entry-cache@^2.0.0:
-  version "2.0.0"
-  resolved "http://r.cnpmjs.org/file-entry-cache/download/file-entry-cache-2.0.0.tgz#c392990c3e684783d838b8c84a45d8a048458361"
   dependencies:
     flat-cache "^1.2.1"
     object-assign "^4.0.1"
@@ -3372,7 +3114,7 @@ glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@~7.1.1:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-globals@^9.0.0, globals@^9.14.0, globals@^9.2.0:
+globals@^9.0.0, globals@^9.2.0:
   version "9.17.0"
   resolved "http://r.cnpmjs.org/globals/download/globals-9.17.0.tgz#0c0ca696d9b9bb694d2e5470bd37777caad50286"
 
@@ -3411,12 +3153,6 @@ glogg@^1.0.0:
   resolved "http://r.cnpmjs.org/glogg/download/glogg-1.0.0.tgz#7fe0f199f57ac906cf512feead8f90ee4a284fc5"
   dependencies:
     sparkles "^1.0.0"
-
-good-listener@^1.2.0:
-  version "1.2.2"
-  resolved "http://r.cnpmjs.org/good-listener/download/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
-  dependencies:
-    delegate "^3.1.2"
 
 got@^5.0.0:
   version "5.7.1"
@@ -3778,7 +3514,7 @@ ieee754@^1.1.4:
   version "1.1.8"
   resolved "http://r.cnpmjs.org/ieee754/download/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
 
-ignore@^3.1.2, ignore@^3.2.0:
+ignore@^3.1.2:
   version "3.3.0"
   resolved "http://r.cnpmjs.org/ignore/download/ignore-3.3.0.tgz#3812d22cbe9125f2c2b4915755a1b8abd745a001"
 
@@ -3947,21 +3683,11 @@ is-arrayish@^0.2.1:
   version "0.2.1"
   resolved "http://r.cnpmjs.org/is-arrayish/download/is-arrayish-0.2.1.tgz#77c99840527aa8ecb1a8ba697b80645a7a926a9d"
 
-is-arrow-function@^2.0.3:
-  version "2.0.3"
-  resolved "http://r.cnpmjs.org/is-arrow-function/download/is-arrow-function-2.0.3.tgz#29be2c2d8d9450852b8bbafb635ba7b8d8e87ec2"
-  dependencies:
-    is-callable "^1.0.4"
-
 is-binary-path@^1.0.0:
   version "1.0.1"
   resolved "http://r.cnpmjs.org/is-binary-path/download/is-binary-path-1.0.1.tgz#75f16642b480f187a711c814161fd3a4a7655898"
   dependencies:
     binary-extensions "^1.0.0"
-
-is-boolean-object@^1.0.0:
-  version "1.0.0"
-  resolved "http://r.cnpmjs.org/is-boolean-object/download/is-boolean-object-1.0.0.tgz#98f8b28030684219a95f375cfbd88ce3405dff93"
 
 is-buffer@^1.0.2, is-buffer@^1.1.5:
   version "1.1.5"
@@ -3977,7 +3703,7 @@ is-bzip2@^1.0.0:
   version "1.0.0"
   resolved "http://r.cnpmjs.org/is-bzip2/download/is-bzip2-1.0.0.tgz#5ee58eaa5a2e9c80e21407bedf23ae5ac091b3fc"
 
-is-callable@^1.0.4, is-callable@^1.1.1, is-callable@^1.1.2, is-callable@^1.1.3:
+is-callable@^1.1.1, is-callable@^1.1.2, is-callable@^1.1.3:
   version "1.1.3"
   resolved "http://r.cnpmjs.org/is-callable/download/is-callable-1.1.3.tgz#86eb75392805ddc33af71c92a0eedf74ee7604b2"
 
@@ -3994,22 +3720,6 @@ is-equal-shallow@^0.1.3:
   resolved "http://r.cnpmjs.org/is-equal-shallow/download/is-equal-shallow-0.1.3.tgz#2238098fc221de0bcfa5d9eac4c45d638aa1c534"
   dependencies:
     is-primitive "^2.0.0"
-
-is-equal@^1.5.5:
-  version "1.5.5"
-  resolved "http://r.cnpmjs.org/is-equal/download/is-equal-1.5.5.tgz#5e85f1957e052883247feb386965a3bba15fbb3d"
-  dependencies:
-    has "^1.0.1"
-    is-arrow-function "^2.0.3"
-    is-boolean-object "^1.0.0"
-    is-callable "^1.1.3"
-    is-date-object "^1.0.1"
-    is-generator-function "^1.0.6"
-    is-number-object "^1.0.3"
-    is-regex "^1.0.3"
-    is-string "^1.0.4"
-    is-symbol "^1.0.1"
-    object.entries "^1.0.4"
 
 is-extendable@^0.1.0, is-extendable@^0.1.1:
   version "0.1.1"
@@ -4038,10 +3748,6 @@ is-fullwidth-code-point@^1.0.0:
 is-fullwidth-code-point@^2.0.0:
   version "2.0.0"
   resolved "http://r.cnpmjs.org/is-fullwidth-code-point/download/is-fullwidth-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f"
-
-is-generator-function@^1.0.6:
-  version "1.0.6"
-  resolved "http://r.cnpmjs.org/is-generator-function/download/is-generator-function-1.0.6.tgz#9e71653cd15fff341c79c4151460a131d31e9fc4"
 
 is-gif@^1.0.0:
   version "1.0.0"
@@ -4079,10 +3785,6 @@ is-my-json-valid@^2.10.0, is-my-json-valid@^2.12.4:
 is-natural-number@^2.0.0:
   version "2.1.1"
   resolved "http://r.cnpmjs.org/is-natural-number/download/is-natural-number-2.1.1.tgz#7d4c5728377ef386c3e194a9911bf57c6dc335e7"
-
-is-number-object@^1.0.3:
-  version "1.0.3"
-  resolved "http://r.cnpmjs.org/is-number-object/download/is-number-object-1.0.3.tgz#f265ab89a9f445034ef6aff15a8f00b00f551799"
 
 is-number@^0.1.1:
   version "0.1.1"
@@ -4167,10 +3869,6 @@ is-retry-allowed@^1.0.0:
 is-stream@^1.0.0, is-stream@^1.0.1:
   version "1.1.0"
   resolved "http://r.cnpmjs.org/is-stream/download/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
-
-is-string@^1.0.4:
-  version "1.0.4"
-  resolved "http://r.cnpmjs.org/is-string/download/is-string-1.0.4.tgz#cc3a9b69857d621e963725a24caeec873b826e64"
 
 is-subset@^0.1.1:
   version "0.1.1"
@@ -4411,9 +4109,9 @@ jstransform@^11.0.3:
     object-assign "^2.0.0"
     source-map "^0.4.2"
 
-jsx-ast-utils@^1.2.1:
+jsx-ast-utils@^1.4.1:
   version "1.4.1"
-  resolved "http://r.cnpmjs.org/jsx-ast-utils/download/jsx-ast-utils-1.4.1.tgz#3867213e8dd79bf1e8f2300c0cfc1efb182c0df1"
+  resolved "https://r.cnpmjs.org/jsx-ast-utils/download/jsx-ast-utils-1.4.1.tgz#3867213e8dd79bf1e8f2300c0cfc1efb182c0df1"
 
 karma-chai@^0.1.0:
   version "0.1.0"
@@ -4866,10 +4564,6 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.1"
     yallist "^2.0.0"
 
-lscache@^1.0.6, lscache@^1.0.7:
-  version "1.1.0"
-  resolved "http://r.cnpmjs.org/lscache/download/lscache-1.1.0.tgz#cbcf2df9ccf634f3c8f9c659bcbe044d6f73b860"
-
 macaddress@^0.2.8:
   version "0.2.8"
   resolved "http://r.cnpmjs.org/macaddress/download/macaddress-0.2.8.tgz#5904dc537c39ec6dbefeae902327135fa8511f12"
@@ -5035,10 +4729,6 @@ mocha@^2.2.5:
     supports-color "1.2.0"
     to-iso-string "0.0.2"
 
-moment@^2.14.1:
-  version "2.18.1"
-  resolved "http://r.cnpmjs.org/moment/download/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
-
 ms@0.7.1:
   version "0.7.1"
   resolved "http://r.cnpmjs.org/ms/download/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
@@ -5072,10 +4762,6 @@ mz@2, mz@^2.0.0:
 nan@^2.3.0, nan@^2.3.2:
   version "2.6.2"
   resolved "http://r.cnpmjs.org/nan/download/nan-2.6.2.tgz#e4ff34e6c95fdfb5aecc08de6596f43605a7db45"
-
-natural-compare@^1.4.0:
-  version "1.4.0"
-  resolved "http://r.cnpmjs.org/natural-compare/download/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
 
 ncname@1.0.x:
   version "1.0.0"
@@ -5228,10 +4914,6 @@ normalize-url@^1.4.0:
     query-string "^4.1.0"
     sort-keys "^1.0.0"
 
-normalize.css@^4.2.0:
-  version "4.2.0"
-  resolved "http://r.cnpmjs.org/normalize.css/download/normalize.css-4.2.0.tgz#21d66cc557154d4379fd1e079ec7de58a379b099"
-
 normalize.css@^5.0.0:
   version "5.0.0"
   resolved "http://r.cnpmjs.org/normalize.css/download/normalize.css-5.0.0.tgz#7cec875ce8178a5333c4de80b68ea9c18b9d7c37"
@@ -5311,7 +4993,7 @@ object.assign@^4.0.4:
     function-bind "^1.1.0"
     object-keys "^1.0.10"
 
-object.entries@^1.0.3, object.entries@^1.0.4:
+object.entries@^1.0.3:
   version "1.0.4"
   resolved "http://r.cnpmjs.org/object.entries/download/object.entries-1.0.4.tgz#1bf9a4dd2288f5b33f3a993d257661f05d161a5f"
   dependencies:
@@ -5388,7 +5070,7 @@ optional@^0.1.0:
   version v0.1.3
   resolved "http://r.cnpmjs.org/optional/download/optional-0.1.3.tgz#f87537517b59a5e732cfd8f18e4f7eea7ab4761e"
 
-optionator@^0.8.1, optionator@^0.8.2:
+optionator@^0.8.1:
   version "0.8.2"
   resolved "http://r.cnpmjs.org/optionator/download/optionator-0.8.2.tgz#364c5e409d3f4d6301d6c0b4c05bba50180aeb64"
   dependencies:
@@ -6094,7 +5776,7 @@ q@^1.1.2:
   version "1.5.0"
   resolved "http://r.cnpmjs.org/q/download/q-1.5.0.tgz#dd01bac9d06d30e6f219aecb8253ee9ebdc308f1"
 
-qs@6.4.0, qs@^6.3.0, qs@~6.4.0:
+qs@6.4.0, qs@~6.4.0:
   version "6.4.0"
   resolved "http://r.cnpmjs.org/qs/download/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
 
@@ -6102,7 +5784,7 @@ qs@~6.3.0:
   version "6.3.2"
   resolved "http://r.cnpmjs.org/qs/download/qs-6.3.2.tgz#e75bd5f6e268122a2a0e0bda630b2550c166502c"
 
-query-string@^4.1.0, query-string@^4.2.2, query-string@^4.3.2:
+query-string@^4.1.0:
   version "4.3.4"
   resolved "http://r.cnpmjs.org/query-string/download/query-string-4.3.4.tgz#bbb693b9ca915c232515b228b1a02b609043dbeb"
   dependencies:
@@ -6157,13 +5839,6 @@ rc@^1.1.2, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-addons-css-transition-group@^15.4.0:
-  version "15.5.2"
-  resolved "http://r.cnpmjs.org/react-addons-css-transition-group/download/react-addons-css-transition-group-15.5.2.tgz#ea7e0a9f0e1c27ca426da4efd3559915bd42ead2"
-  dependencies:
-    fbjs "^0.8.4"
-    object-assign "^4.1.0"
-
 react-addons-test-utils@^15.0.2:
   version "15.5.1"
   resolved "http://r.cnpmjs.org/react-addons-test-utils/download/react-addons-test-utils-15.5.1.tgz#e0d258cda2a122ad0dff69f838260d0c3958f5f7"
@@ -6171,19 +5846,11 @@ react-addons-test-utils@^15.0.2:
     fbjs "^0.8.4"
     object-assign "^4.1.0"
 
-react-cropper@~0.9.4:
-  version "0.9.4"
-  resolved "http://r.cnpmjs.org/react-cropper/download/react-cropper-0.9.4.tgz#34cccfa4ab48a427fb52639e65154467ecd58340"
-  dependencies:
-    cropperjs "^0.8.0"
-    react "^15.0.0"
-    react-dom "^15.0.0"
-
 react-dom@^0.14.0:
   version "0.14.9"
   resolved "http://r.cnpmjs.org/react-dom/download/react-dom-0.14.9.tgz#05064a3dcf0fb1880a3b2bfc9d58c55d8d9f6293"
 
-react-dom@^15.0.0, react-dom@^15.4.1, react-dom@^15.4.2:
+react-dom@^15.4.1:
   version "15.5.4"
   resolved "http://r.cnpmjs.org/react-dom/download/react-dom-15.5.4.tgz#ba0c28786fd52ed7e4f2135fe0288d462aef93da"
   dependencies:
@@ -6215,16 +5882,6 @@ react-redux@^5.0.1:
     loose-envify "^1.1.0"
     prop-types "^15.0.0"
 
-react-slide-deck@^0.2.3:
-  version "0.2.3"
-  resolved "http://r.cnpmjs.org/react-slide-deck/download/react-slide-deck-0.2.3.tgz#f3c127d76a14edb9913f35adcf08b7c330bbce71"
-
-react-svg-inline@^1.2.0:
-  version "1.2.0"
-  resolved "http://r.cnpmjs.org/react-svg-inline/download/react-svg-inline-1.2.0.tgz#a02bf81a0ed7615e3194a014b58d98aea5521fd5"
-  dependencies:
-    classnames "^2.2.1"
-
 react-svg-inline@^2.0.0:
   version "2.0.0"
   resolved "http://r.cnpmjs.org/react-svg-inline/download/react-svg-inline-2.0.0.tgz#0a4f60895588eecc7616af3a511d087801163600"
@@ -6239,7 +5896,7 @@ react@^0.14.0:
     envify "^3.0.0"
     fbjs "^0.6.1"
 
-react@^15.0.0, react@^15.4.2, react@^15.5.4:
+react@^15.5.4:
   version "15.5.4"
   resolved "http://r.cnpmjs.org/react/download/react-15.5.4.tgz#fa83eb01506ab237cdc1c8c3b1cea8de012bf047"
   dependencies:
@@ -6336,12 +5993,6 @@ recast@^0.11.17:
     esprima "~3.1.0"
     private "~0.1.5"
     source-map "~0.5.0"
-
-rechoir@^0.6.2:
-  version "0.6.2"
-  resolved "http://r.cnpmjs.org/rechoir/download/rechoir-0.6.2.tgz#85204b54dba82d5742e28c96756ef43af50e3384"
-  dependencies:
-    resolve "^1.1.6"
 
 redent@^1.0.0:
   version "1.0.0"
@@ -6477,10 +6128,6 @@ replace-ext@0.0.1:
   version "0.0.1"
   resolved "http://r.cnpmjs.org/replace-ext/download/replace-ext-0.0.1.tgz#29bbd92078a739f0bcce2b4ee41e837953522924"
 
-request-interval@^2.0.0:
-  version "2.0.0"
-  resolved "http://r.cnpmjs.org/request-interval/download/request-interval-2.0.0.tgz#eb884017d0c79b92f1a805259be526805c731faf"
-
 request-progress@~2.0.1:
   version "2.0.1"
   resolved "http://r.cnpmjs.org/request-progress/download/request-progress-2.0.1.tgz#5d36bb57961c673aa5b788dbc8141fdf23b44e08"
@@ -6562,7 +6209,7 @@ resolve-from@^1.0.0:
   version "1.0.1"
   resolved "http://r.cnpmjs.org/resolve-from/download/resolve-from-1.0.1.tgz#26cbfe935d1aeeeabb29bc3fe5aeb01e93d44226"
 
-resolve@1.1.x, resolve@^1.1.6:
+resolve@1.1.x:
   version "1.1.7"
   resolved "http://r.cnpmjs.org/resolve/download/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
 
@@ -6646,10 +6293,6 @@ seek-bzip@^1.0.3:
 select-hose@^2.0.0:
   version "2.0.0"
   resolved "http://r.cnpmjs.org/select-hose/download/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
-
-select@^1.1.2:
-  version "1.1.2"
-  resolved "http://r.cnpmjs.org/select/download/select-1.1.2.tgz#0e7350acdec80b1108528786ec1d4418d11b396d"
 
 semver-regex@^1.0.0:
   version "1.0.0"
@@ -6747,14 +6390,6 @@ shelljs@^0.6.0:
   version "0.6.1"
   resolved "http://r.cnpmjs.org/shelljs/download/shelljs-0.6.1.tgz#ec6211bed1920442088fe0f70b2837232ed2c8a8"
 
-shelljs@^0.7.5:
-  version "0.7.7"
-  resolved "http://r.cnpmjs.org/shelljs/download/shelljs-0.7.7.tgz#b2f5c77ef97148f4b4f6e22682e10bba8667cff1"
-  dependencies:
-    glob "^7.0.0"
-    interpret "^1.0.0"
-    rechoir "^0.6.2"
-
 sigmund@~1.0.0:
   version "1.0.1"
   resolved "http://r.cnpmjs.org/sigmund/download/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
@@ -6762,12 +6397,6 @@ sigmund@~1.0.0:
 signal-exit@^3.0.0:
   version "3.0.2"
   resolved "http://r.cnpmjs.org/signal-exit/download/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
-
-simple-url@^1.1.4:
-  version "1.1.8"
-  resolved "http://r.cnpmjs.org/simple-url/download/simple-url-1.1.8.tgz#8568d31c28a6bb57b9c6f68eee0aa356607ba535"
-  dependencies:
-    qs "^6.3.0"
 
 slash@^1.0.0:
   version "1.0.0"
@@ -6960,10 +6589,6 @@ stat-mode@^0.2.0:
   version "1.3.1"
   resolved "http://r.cnpmjs.org/statuses/download/statuses-1.3.1.tgz#faf51b9eb74aaef3b3acf4ad5f61abf24cb7b93e"
 
-stb-shim-classlist@^1.3.0:
-  version "1.4.0"
-  resolved "http://r.cnpmjs.org/stb-shim-classlist/download/stb-shim-classlist-1.4.0.tgz#e76b3e9ae702d8b420aa7e0fb1fffdf34741febb"
-
 stdout-stream@^1.4.0:
   version "1.4.0"
   resolved "http://r.cnpmjs.org/stdout-stream/download/stdout-stream-1.4.0.tgz#a2c7c8587e54d9427ea9edb3ac3f2cd522df378b"
@@ -7053,10 +6678,6 @@ strip-bom@^2.0.0:
   resolved "http://r.cnpmjs.org/strip-bom/download/strip-bom-2.0.0.tgz#6219a85616520491f35788bdbf1447a99c7e6b0e"
   dependencies:
     is-utf8 "^0.2.0"
-
-strip-bom@^3.0.0:
-  version "3.0.0"
-  resolved "http://r.cnpmjs.org/strip-bom/download/strip-bom-3.0.0.tgz#2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
 
 strip-dirs@^1.0.0:
   version "1.1.1"
@@ -7267,14 +6888,6 @@ timers-browserify@^2.0.2:
   resolved "http://r.cnpmjs.org/timers-browserify/download/timers-browserify-2.0.2.tgz#ab4883cf597dcd50af211349a00fbca56ac86b86"
   dependencies:
     setimmediate "^1.0.4"
-
-tiny-cookie@^1.0.0, tiny-cookie@^1.0.1:
-  version "1.0.1"
-  resolved "http://r.cnpmjs.org/tiny-cookie/download/tiny-cookie-1.0.1.tgz#753786079c642a3c3d0b2accad600f8de119ac2a"
-
-tiny-emitter@^1.0.0:
-  version "1.2.0"
-  resolved "http://r.cnpmjs.org/tiny-emitter/download/tiny-emitter-1.2.0.tgz#6dc845052cb08ebefc1874723b58f24a648c3b6f"
 
 tiny-request@2:
   version "2.0.0"
@@ -7787,10 +7400,6 @@ wide-align@^1.1.0:
 window-size@0.1.0:
   version "0.1.0"
   resolved "http://r.cnpmjs.org/window-size/download/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
-
-wolfy87-eventemitter@^5.1.0:
-  version "5.1.0"
-  resolved "http://r.cnpmjs.org/wolfy87-eventemitter/download/wolfy87-eventemitter-5.1.0.tgz#35c1ac0dd1ac0c15e35d981508fc22084a13a011"
 
 wordwrap@0.0.2:
   version "0.0.2"

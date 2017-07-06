@@ -6,8 +6,6 @@ import { createStore } from 'redux';
 import reducer         from './reducers';
 import domready        from 'domready';
 
-import '@hlj/share';
-
 const store = createStore(reducer);
 
 require('styles/app.scss');
